@@ -1,21 +1,31 @@
 import React, { useEffect, useState } from 'react';
 import Item from '../Item/Item';
+import Cart from '../Cart/Cart'
 const Header = () => {
     const [products, setProducts] = useState([])
+
     useEffect(()=>{
         fetch('fakedata.json')
         .then(res=> res.json())
         .then(data=>setProducts(data))
     },[])
+
+    const [carts, setCarts] = useState([])
+
+    const show=(product)=>{
+        setCarts([...carts, product]);;
+    }
+   
     return (
         <div className='row'>
             <div className="col-md-3 bg-primary">
                 <h1>order summary</h1>
+                <Cart carts={carts}></Cart>
             </div>
             <div className="col-md-9">
                 <div className="row g-3">
                 {
-                    products.map(product=> <Item key={product.id} product={product}></Item>)
+                    products.map(product=> <Item key={product.id} product={product} show={show}></Item>)
                 }
                 </div>
             </div>

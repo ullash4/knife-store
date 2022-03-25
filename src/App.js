@@ -6,7 +6,6 @@ function App() {
   return (
     <div className='m-5'>
       <Header></Header>
-      
     </div>
   );
 }
