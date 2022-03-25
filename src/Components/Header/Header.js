@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Item from '../Item/Item';
 const Header = () => {
     const [products, setProducts] = useState([])
     useEffect(()=>{
@@ -8,13 +9,15 @@ const Header = () => {
     },[])
     return (
         <div className='row'>
-            <div className="col-md-4 bg-primary">
+            <div className="col-md-3 bg-primary">
                 <h1>order summary</h1>
             </div>
-            <div className="col-md-8 bg-danger">
+            <div className="col-md-9">
+                <div className="row g-3">
                 {
-                    products.map(product=> console.log(product))
+                    products.map(product=> <Item key={product.id} product={product}></Item>)
                 }
+                </div>
             </div>
         </div>
     );
