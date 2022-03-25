@@ -13,14 +13,25 @@ const Header = () => {
     const [carts, setCarts] = useState([])
 
     const show=(product)=>{
-        setCarts([...carts, product]);;
+        setCarts([...carts, product]);
     }
-   
+
+    const clearCarts=()=>{
+        setCarts([])
+    }
+
+    const randomSelect=(carts)=>{
+        console.log(carts);
+        // const num = arr[Math.floor(Math.random() * arr.length)]
+        const num = [Math.floor(Math.random() * carts.length)]
+        setCarts([carts[num]])
+    }
+
     return (
         <div className='row'>
-            <div className="col-md-3 bg-primary">
+            <div className="col-md-3 ">
                 <h1>order summary</h1>
-                <Cart carts={carts}></Cart>
+                <Cart carts={carts} clearCarts={clearCarts} randomSelect={randomSelect}></Cart>
             </div>
             <div className="col-md-9">
                 <div className="row g-3">
