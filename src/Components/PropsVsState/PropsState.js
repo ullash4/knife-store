@@ -13,7 +13,7 @@ const PropsState = () => {
                     Its cant be accessed by child compononets. State cant make componets reusable.</p>
                 </div>
                 <div className="col-md-5">
-                    <img className='img-fluid p-2' src="https://i.ibb.co/vq98xCq/5283.jpg" alt="" />
+                    <img className='img-fluid p-2' src='https://i.ibb.co/JtZPRWt/5283.jpg' alt="" />
                 </div>
             </div>
         </div>

@@ -5,7 +5,7 @@ const ReactWorks = () => {
         <div className='my-5'>
             <div className="row">
                 <div className="col-md-5">
-                    <img className='img-fluid' src="https://i.ibb.co/PC1VS8V/6329.jpg" alt="" />
+                    <img className='img-fluid' src="https://i.ibb.co/4N40Qx0/6329.jpg" alt="" />
                 </div>
                 <div className="col-md-7">
                     <h1>How reactJs Works ?</h1>

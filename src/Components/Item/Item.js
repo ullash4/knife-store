@@ -14,7 +14,7 @@ const Item = ({product, show}) => {
                 <Card.Text>
                 <p>Price : {price}</p>
                 </Card.Text>
-                <Button variant="primary" onClick={()=>show(product)}>Add to Cart <RiShoppingCart2Fill></RiShoppingCart2Fill> </Button>
+                <Button variant="dark" onClick={()=>show(product)}>Add to Cart <RiShoppingCart2Fill></RiShoppingCart2Fill> </Button>
             </Card.Body>
             </Card>
         </div>

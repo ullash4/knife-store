@@ -28,8 +28,7 @@ const Header = () => {
 
     return (
         <div className='row'>
-            <div className="col-md-3 ">
-                <h1>order summary</h1>
+            <div className="col-md-3">
                 <Cart carts={carts} clearCarts={clearCarts} randomSelect={randomSelect}></Cart>
             </div>
             <div className="col-md-9">
