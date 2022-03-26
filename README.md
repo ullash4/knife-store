@@ -2,8 +2,8 @@
 
 ### `Project Details`
 
-Project name : [Knife Store](https://knife-store-43b835.netlify.app/)\
-Live site link : [https://knife-store-8730fa.netlify.app/](https://knife-store-43b835.netlify.app/)
+Project name : [Knife Store](https://knife-store-6758ab.netlify.app/)\
+Live site link : [https://knife-store-6758ab.netlify.app/](https://knife-store-6758ab.netlify.app/)
 
 ## Available Scripts
 
