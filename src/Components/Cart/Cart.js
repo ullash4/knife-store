@@ -4,8 +4,6 @@ import { GiCardRandom } from "react-icons/gi";
 import { MdDelete } from "react-icons/md";
 
 const Cart = ({carts, clearCarts, randomSelect}) => {
-    console.log(carts);
-    
     return (
         <div>
             <h5>Selected Items: {carts.length}</h5>

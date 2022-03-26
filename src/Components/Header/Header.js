@@ -22,7 +22,6 @@ const Header = () => {
 
     const randomSelect=(carts)=>{
         console.log(carts);
-        // const num = arr[Math.floor(Math.random() * arr.length)]
         const num = [Math.floor(Math.random() * carts.length)]
         setCarts([carts[num]])
     }

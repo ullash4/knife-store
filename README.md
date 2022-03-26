@@ -2,8 +2,8 @@
 
 ### `Project Details`
 
-Project name : [Knife Store](https://github.com/facebook/create-react-app)\
-Live site link : [https://knife-store-8730fa.netlify.app/](https://knife-store-8730fa.netlify.app/)
+Project name : [Knife Store](https://knife-store-43b835.netlify.app/)\
+Live site link : [https://knife-store-8730fa.netlify.app/](https://knife-store-43b835.netlify.app/)
 
 ## Available Scripts
 
