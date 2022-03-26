@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Project Informations
 
-### `Project Informations`
+### `Project Details`
 
 Project name : [Knife Store](https://github.com/facebook/create-react-app)\
 Live site link : [https://knife-store-8730fa.netlify.app/](https://knife-store-8730fa.netlify.app/)
